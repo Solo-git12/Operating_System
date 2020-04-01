@@ -43,7 +43,7 @@ return x;
 void Queue::Display()
 { 
    
-	printf("---------------------------------------------------\n");
+	printf("----------------------------------------------------\n");
     printf("Quee : ");
     for(int i=front+1;i<=rear;i++)
          printf("%d ",Q[i]); 
